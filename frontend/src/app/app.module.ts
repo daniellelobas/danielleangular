@@ -20,7 +20,7 @@ import localept from "@angular/common/locales/pt";
 import { registerLocaleData } from '@angular/common';
 import { DirectivesforDirective } from './directivesfor.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
-
+import { HttpClientModule } from '@angular/common/http';
 registerLocaleData(localept);
 
 @NgModule({
@@ -46,6 +46,7 @@ registerLocaleData(localept);
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
+    HttpClientModule
 
   ],
   providers: [{
