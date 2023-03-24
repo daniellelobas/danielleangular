@@ -1,3 +1,4 @@
+import { MatInputModule } from '@angular/material/input';
 import { NgModule, LOCALE_ID } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
@@ -22,6 +23,8 @@ import { DirectivesforDirective } from './directivesfor.directive';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { HttpClientModule } from '@angular/common/http';
 registerLocaleData(localept);
+import  { FormsModule } from '@angular/forms';
+import  { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -46,8 +49,11 @@ registerLocaleData(localept);
     MatCardModule,
     MatButtonModule,
     MatSnackBarModule,
-    HttpClientModule
-
+    HttpClientModule,
+    FormsModule,
+    MatFormFieldModule,
+    MatInputModule 
+    
   ],
   providers: [{
     provide: LOCALE_ID,
