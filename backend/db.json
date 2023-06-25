@@ -26,14 +26,14 @@
       "id": 5
     },
     {
-      "name\n": "DanieleS2Eliano",
-      "price": "100,00",
+      "name": "caneta preta",
+      "price": "5,99",
       "id": 6
     },
     {
-      "name\n": "Amormedeixoubebim",
-      "price": "100,00",
-      "id": 8
+      "name": "",
+      "price": null,
+      "id": 7
     }
   ]
 }
